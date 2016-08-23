@@ -6,10 +6,9 @@ import ComponentTwo from './component-two.ts';
     selector: 'simple-routing',
     directives: [ROUTER_DIRECTIVES]
     template: `<div>
-	Basic Routing <br/>
 	
-	<a class='menu-item' [routerLink]="['/ComponentOne']">One</a>
-	<a class='menu-item' [routerLink]="['/ComponentTwo']">Two</a>
+	<h1><a class='menu-item' [routerLink]="['/ComponentOne']">One</a>
+	<a class='menu-item' [routerLink]="['/ComponentTwo']">Two</a></h1>
 	<div>
 	  <router-outlet></router-outlet>
 	</div>

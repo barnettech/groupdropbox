@@ -48,7 +48,7 @@ function angular2RouterInDrupal_block_view($delta = '') {
                 )
             );
 
-            $block['subject'] = t('HMS Angular 2 Router Block');
+            $block['subject'] = t('HMS Angular 2 Basic Router Block');
             $block['content'] = $output;
             break;
     }
