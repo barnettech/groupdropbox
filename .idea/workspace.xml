@@ -31,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="angular2RouterInDrupal.module" pinned="false" current-in-tab="false">
+      <file leaf-file-name="angular2RouterInDrupal.module" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/angular2RouterInDrupal.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
-              <caret line="44" column="107" selection-start-line="44" selection-start-column="81" selection-end-line="44" selection-end-column="107" />
+            <state relative-caret-position="485">
+              <caret line="50" column="61" selection-start-line="50" selection-start-column="61" selection-end-line="50" selection-end-column="61" />
               <folding>
                 <element signature="e#6#212#0#PHP" expanded="true" />
               </folding>
@@ -53,7 +53,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="component-one.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="component-one.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/component-one.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -116,13 +116,12 @@
       <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/app.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            <state relative-caret-position="180">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
-                <marker date="1471960286000" expanded="true" signature="299:534" ph="..." />
-                <marker date="1471960286000" expanded="false" signature="463:486" ph="..." />
-                <marker date="1471960286000" expanded="true" signature="487:530" ph="..." />
+                <marker date="1471962486000" expanded="true" signature="299:502" ph="..." />
+                <marker date="1471962486000" expanded="true" signature="455:498" ph="..." />
               </folding>
             </state>
           </provider>
@@ -145,9 +144,9 @@
         <option value="$PROJECT_DIR$/app/test/matchers.ts" />
         <option value="$PROJECT_DIR$/js/angular2RouterInDrupal.js" />
         <option value="$PROJECT_DIR$/app/boot.ts" />
+        <option value="$PROJECT_DIR$/css/angular2RouterInDrupal.css" />
         <option value="$PROJECT_DIR$/app/app.component.ts" />
         <option value="$PROJECT_DIR$/angular2RouterInDrupal.module" />
-        <option value="$PROJECT_DIR$/css/angular2RouterInDrupal.css" />
       </list>
     </option>
   </component>
@@ -160,7 +159,7 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="49" />
-    <option name="y" value="38" />
+    <option name="y" value="37" />
     <option name="width" value="1104" />
     <option name="height" value="798" />
   </component>
@@ -235,6 +234,20 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular2RouterInDrupal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular2RouterInDrupal" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -303,15 +316,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1471633782374</updated>
-      <workItem from="1471633783530" duration="6463000" />
+      <workItem from="1471633783530" duration="6798000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6463000" />
+    <option name="totallyTimeSpent" value="6798000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="38" width="1104" height="798" extended-state="0" />
+    <frame x="49" y="37" width="1104" height="798" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -437,29 +450,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-            <marker date="1471960286000" expanded="true" signature="299:534" ph="..." />
-            <marker date="1471960286000" expanded="false" signature="463:486" ph="..." />
-            <marker date="1471960286000" expanded="true" signature="487:530" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular2RouterInDrupal.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="44" column="107" selection-start-line="44" selection-start-column="81" selection-end-line="44" selection-end-column="107" />
-          <folding>
-            <element signature="e#6#212#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/angular2RouterInDrupal.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -473,6 +463,28 @@
         <state relative-caret-position="120">
           <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+            <marker date="1471962486000" expanded="true" signature="299:502" ph="..." />
+            <marker date="1471962486000" expanded="true" signature="455:498" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular2RouterInDrupal.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="50" column="61" selection-start-line="50" selection-start-column="61" selection-end-line="50" selection-end-column="61" />
+          <folding>
+            <element signature="e#6#212#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

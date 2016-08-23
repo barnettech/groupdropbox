@@ -10,7 +10,7 @@ import ComponentTwo from './component-two.ts';
 	
 	<a class='menu-item' [routerLink]="['/ComponentOne']">One</a>
 	<a class='menu-item' [routerLink]="['/ComponentTwo']">Two</a>
-	<div style="border: 1px solid black">
+	<div>
 	  <router-outlet></router-outlet>
 	</div>
 	
