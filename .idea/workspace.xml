@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1712437e-0ed2-423f-b477-578113eecc8b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/boot.ts" afterPath="$PROJECT_DIR$/app/boot.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular2RouterInDrupal.module" afterPath="$PROJECT_DIR$/angular2RouterInDrupal.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/component-one.ts" afterPath="$PROJECT_DIR$/app/component-one.ts" />
     </list>
     <ignored path="angular2RouterInDrupal.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="angular2RouterInDrupal.module" pinned="false" current-in-tab="false">
+      <file leaf-file-name="angular2RouterInDrupal.module" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/angular2RouterInDrupal.module">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="437">
-              <caret line="40" column="90" selection-start-line="40" selection-start-column="90" selection-end-line="40" selection-end-column="90" />
+              <caret line="40" column="86" selection-start-line="40" selection-start-column="86" selection-end-line="40" selection-end-column="86" />
               <folding>
                 <element signature="e#6#212#0#PHP" expanded="true" />
               </folding>
@@ -49,8 +50,8 @@
       <file leaf-file-name="component-one.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/component-one.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            <state relative-caret-position="60">
+              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -60,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/app/component-two.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -86,7 +87,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="boot.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="boot.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/boot.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
@@ -136,15 +137,15 @@
         <option value="$PROJECT_DIR$/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/src/homepage/homepage.component.ts" />
         <option value="$PROJECT_DIR$/src/config.js" />
-        <option value="$PROJECT_DIR$/app/component-one.ts" />
-        <option value="$PROJECT_DIR$/app/component-two.ts" />
         <option value="$PROJECT_DIR$/js/angular2RouterInDrupal.js" />
         <option value="$PROJECT_DIR$/css/angular2RouterInDrupal.css" />
         <option value="$PROJECT_DIR$/app/test/matchers.ts" />
         <option value="$PROJECT_DIR$/app/app.component.ts" />
         <option value="$PROJECT_DIR$/js/angular2.js" />
-        <option value="$PROJECT_DIR$/angular2RouterInDrupal.module" />
         <option value="$PROJECT_DIR$/app/boot.ts" />
+        <option value="$PROJECT_DIR$/angular2RouterInDrupal.module" />
+        <option value="$PROJECT_DIR$/app/component-one.ts" />
+        <option value="$PROJECT_DIR$/app/component-two.ts" />
       </list>
     </option>
   </component>
@@ -156,7 +157,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="12" />
+    <option name="x" value="10" />
     <option name="y" value="31" />
     <option name="width" value="1104" />
     <option name="height" value="798" />
@@ -321,15 +322,15 @@
       <option name="presentableId" value="Default" />
       <updated>1471633782374</updated>
       <workItem from="1471633783530" duration="7816000" />
-      <workItem from="1471964443241" duration="512000" />
+      <workItem from="1471964443241" duration="823000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8328000" />
+    <option name="totallyTimeSpent" value="8639000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="12" y="31" width="1104" height="798" extended-state="0" />
+    <frame x="10" y="31" width="1104" height="798" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -492,22 +493,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/test/matchers.ts" />
-    <entry file="file://$PROJECT_DIR$/app/component-two.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/component-one.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -537,21 +522,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular2RouterInDrupal.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="40" column="90" selection-start-line="40" selection-start-column="90" selection-end-line="40" selection-end-column="90" />
-          <folding>
-            <element signature="e#6#212#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/boot.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/component-one.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/component-two.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular2RouterInDrupal.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="40" column="86" selection-start-line="40" selection-start-column="86" selection-end-line="40" selection-end-column="86" />
+          <folding>
+            <element signature="e#6#212#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

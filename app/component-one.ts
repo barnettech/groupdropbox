@@ -2,7 +2,7 @@ import {Component} from 'angular2/core';
 
 @Component({
     selector: 'component-one',
-    template: 'Component One'
+    template: 'Component one'
 })
 export default class ComponentOne {
     console.log(window.location)
