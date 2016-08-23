@@ -37,7 +37,7 @@ function angular2RouterInDrupal_block_view($delta = '') {
                             'sites/all/modules/custom/angular2RouterInDrupal/js/system.js',
                             'sites/all/modules/custom/angular2RouterInDrupal/js/typescript.js',
                             'sites/all/modules/custom/angular2RouterInDrupal/js/Rx.js',
-                            'sites/all/modules/custom/angular2RouterInDrupal/js/angular2.dev.js',
+                            'sites/all/modules/custom/angular2RouterInDrupal/js/angular2.js',
                             'sites/all/modules/custom/angular2RouterInDrupal/js/router.dev.js',
                             'sites/all/modules/custom/angular2RouterInDrupal/js/angular2RouterInDrupal.js'
                         ),
