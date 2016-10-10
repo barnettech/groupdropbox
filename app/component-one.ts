@@ -2,8 +2,11 @@ import {Component} from 'angular2/core';
 
 @Component({
     selector: 'component-one',
-    template: 'Component one'
+    templateUrl: 'sites/all/modules/custom/groupdropbox/app/component-one.html'
 })
 export default class ComponentOne {
-    console.log(window.location)
+  constructor() {
+    this.appMessage = "hello there";
+    console.log("hello there jack in the bean stalk");
+  }
 }

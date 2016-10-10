@@ -3,5 +3,5 @@ System.config({
     typescriptOptions: { emitDecoratorMetadata: true },
     packages: {'app': {defaultExtension: 'ts'}}
 });
-System.import('sites/all/modules/custom/angular2RouterInDrupal/app/boot.ts')
+System.import('sites/all/modules/custom/groupdropbox/app/boot.ts')
     .then(null, console.error.bind(console));

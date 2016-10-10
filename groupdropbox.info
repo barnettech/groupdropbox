@@ -1,0 +1,4 @@
+name = Group Drop Box. 
+description = A module to create group drop boxes. 
+package = HMS custom code
+core = 7.x

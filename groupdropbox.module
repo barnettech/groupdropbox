@@ -1,0 +1,50 @@
+<?php
+/**
+ * @file
+ * A simple module to create a Drupal Block programmatically,
+ * which then can be placed within any region using the block system.
+ * Created by:  Prof. James Barnett, Babson College 2013.
+ */
+
+function groupdropbox_block_info() {
+    // This example comes from node.module.
+    $blocks['groupdropbox'] = array(
+        'info' => t('Group Drop Box'),
+        'cache' => DRUPAL_NO_CACHE,
+    );
+    return $blocks;
+}
+
+function groupdropbox_block_view($delta = '') {
+    // This example is adapted from node.module.
+    $block = array();
+    switch ($delta) {
+        case 'groupdropbox':
+            $output =  array(
+                'first_para' => array(
+                    '#type' => 'markup',
+                    '#markup' => '
+<simple-routing></simple-routing>',
+                    '#attached' => array(
+                        'js' => array(
+                            'sites/all/modules/custom/groupdropbox/js/angular2-polyfills.js',
+                            'sites/all/modules/custom/groupdropbox/js/system.js',
+                            'sites/all/modules/custom/groupdropbox/js/typescript.js',
+                            'sites/all/modules/custom/groupdropbox/js/Rx.js',
+                            'sites/all/modules/custom/groupdropbox/js/angular2.js',
+                            'sites/all/modules/custom/groupdropbox/js/router.dev.js',
+                            'sites/all/modules/custom/groupdropbox/js/groupdropbox.js'
+                        ),
+                        'css' => array(
+                            'sites/all/modules/custom/groupdropbox/css/groupdropbox.css',
+                        )
+                    ),
+                )
+            );
+
+            $block['subject'] = t('HMS Angular 2 Router Block');
+            $block['content'] = $output;
+            break;
+    }
+    return $block;
+}
