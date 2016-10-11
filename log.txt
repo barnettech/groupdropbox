@@ -1,0 +1,388 @@
+Array
+(
+    [referral_link] => https://db.tt/5iCgsLmW
+    [display_name] => James Barnett
+    [uid] => 22454945
+    [locale] => en
+    [email_verified] => 1
+    [team] => 
+    [quota_info] => Array
+        (
+            [datastores] => 0
+            [shared] => 29751036
+            [quota] => 2952790016
+            [normal] => 14910184
+        )
+
+    [is_paired] => 
+    [country] => US
+    [name_details] => Array
+        (
+            [familiar_name] => James
+            [surname] => Barnett
+            [given_name] => James
+        )
+
+    [email] => barnettech@gmail.com
+)
+Array
+(
+    [hash] => 13048159664ef489bda1007a57460978
+    [thumb_exists] => 
+    [bytes] => 0
+    [path] => /
+    [is_dir] => 1
+    [icon] => folder
+    [root] => dropbox
+    [contents] => Array
+        (
+            [0] => Array
+                (
+                    [rev] => 30021bcfe8
+                    [thumb_exists] => 
+                    [path] => /2012 Gregory Refi
+                    [is_dir] => 1
+                    [icon] => folder
+                    [read_only] => 
+                    [modifier] => 
+                    [bytes] => 0
+                    [modified] => Wed, 14 Nov 2012 04:21:40 +0000
+                    [size] => 0 bytes
+                    [root] => dropbox
+                    [revision] => 48
+                )
+
+            [1] => Array
+                (
+                    [rev] => 2d021bcfe8
+                    [thumb_exists] => 
+                    [path] => /aliases.drushrc.php
+                    [is_dir] => 
+                    [client_mtime] => Wed, 29 Aug 2012 13:27:19 +0000
+                    [icon] => page_white_code
+                    [read_only] => 
+                    [modifier] => 
+                    [bytes] => 13887
+                    [modified] => Thu, 30 Aug 2012 13:10:19 +0000
+                    [size] => 13.6 KB
+                    [root] => dropbox
+                    [mime_type] => text/php
+                    [revision] => 45
+                )
+
+            [2] => Array
+                (
+                    [rev] => 16021bcfe8
+                    [thumb_exists] => 
+                    [path] => /Babson
+                    [is_dir] => 1
+                    [icon] => folder_user
+                    [read_only] => 
+                    [modifier] => 
+                    [bytes] => 0
+                    [modified] => Tue, 08 Nov 2011 01:19:05 +0000
+                    [shared_folder] => Array
+                        (
+                            [shared_folder_id] => 77337675
+                            [is_team_only_shared_folder] => 
+                        )
+
+                    [size] => 0 bytes
+                    [root] => dropbox
+                    [revision] => 22
+                )
+
+            [3] => Array
+                (
+                    [rev] => 2c021bcfe8
+                    [thumb_exists] => 
+                    [path] => /babson.aliases.drushrc.php
+                    [is_dir] => 
+                    [client_mtime] => Mon, 20 Aug 2012 20:41:21 +0000
+                    [icon] => page_white_code
+                    [read_only] => 
+                    [modifier] => 
+                    [bytes] => 3519
+                    [modified] => Thu, 30 Aug 2012 13:10:19 +0000
+                    [size] => 3.4 KB
+                    [root] => dropbox
+                    [mime_type] => text/php
+                    [revision] => 44
+                )
+
+            [4] => Array
+                (
+                    [rev] => 2b021bcfe8
+                    [thumb_exists] => 
+                    [path] => /babsoncomm.aliases.drushrc.php
+                    [is_dir] => 
+                    [client_mtime] => Tue, 28 Aug 2012 15:28:19 +0000
+                    [icon] => page_white_code
+                    [read_only] => 
+                    [modifier] => 
+                    [bytes] => 2161
+                    [modified] => Thu, 30 Aug 2012 13:10:19 +0000
+                    [size] => 2.1 KB
+                    [root] => dropbox
+                    [mime_type] => text/php
+                    [revision] => 43
+                )
+
+            [5] => Array
+                (
+                    [rev] => 34021bcfe8
+                    [thumb_exists] => 1
+                    [path] => /banner 2.png
+                    [is_dir] => 
+                    [client_mtime] => Thu, 31 May 2012 12:04:26 +0000
+                    [icon] => page_white_picture
+                    [read_only] => 
+                    [modifier] => 
+                    [bytes] => 720198
+                    [modified] => Fri, 19 Apr 2013 02:24:25 +0000
+                    [size] => 703.3 KB
+                    [root] => dropbox
+                    [mime_type] => image/png
+                    [revision] => 52
+                )
+
+            [6] => Array
+                (
+                    [rev] => 35021bcfe8
+                    [thumb_exists] => 1
+                    [path] => /banner 3.png
+                    [is_dir] => 
+                    [client_mtime] => Thu, 31 May 2012 12:05:32 +0000
+                    [icon] => page_white_picture
+                    [read_only] => 
+                    [modifier] => 
+                    [bytes] => 719636
+                    [modified] => Fri, 19 Apr 2013 02:24:25 +0000
+                    [size] => 702.8 KB
+                    [root] => dropbox
+                    [mime_type] => image/png
+                    [revision] => 53
+                )
+
+            [7] => Array
+                (
+                    [rev] => 31021bcfe8
+                    [thumb_exists] => 1
+                    [path] => /banner.jpg
+                    [is_dir] => 
+                    [client_mtime] => Thu, 08 Mar 2012 18:26:29 +0000
+                    [icon] => page_white_picture
+                    [read_only] => 
+                    [modifier] => 
+                    [bytes] => 202403
+                    [modified] => Fri, 19 Apr 2013 02:24:25 +0000
+                    [size] => 197.7 KB
+                    [root] => dropbox
+                    [mime_type] => image/jpeg
+                    [revision] => 49
+                )
+
+            [8] => Array
+                (
+                    [rev] => 33021bcfe8
+                    [thumb_exists] => 1
+                    [path] => /banner.png
+                    [is_dir] => 
+                    [client_mtime] => Thu, 31 May 2012 11:58:50 +0000
+                    [icon] => page_white_picture
+                    [read_only] => 
+                    [modifier] => 
+                    [bytes] => 684268
+                    [modified] => Fri, 19 Apr 2013 02:24:25 +0000
+                    [size] => 668.2 KB
+                    [root] => dropbox
+                    [mime_type] => image/png
+                    [revision] => 51
+                )
+
+            [9] => Array
+                (
+                    [rev] => 10021bcfe8
+                    [thumb_exists] => 
+                    [path] => /Definitive Guide eBook
+                    [is_dir] => 1
+                    [icon] => folder_user
+                    [read_only] => 
+                    [modifier] => 
+                    [bytes] => 0
+                    [modified] => Thu, 15 Sep 2011 15:25:11 +0000
+                    [shared_folder] => Array
+                        (
+                            [shared_folder_id] => 65542940
+                            [is_team_only_shared_folder] => 
+                        )
+
+                    [size] => 0 bytes
+                    [root] => dropbox
+                    [revision] => 16
+                )
+
+            [10] => Array
+                (
+                    [rev] => c021bcfe8
+                    [thumb_exists] => 
+                    [path] => /FinancesGregoryRoad.xlsx
+                    [is_dir] => 
+                    [client_mtime] => Sat, 02 Jul 2011 10:55:36 +0000
+                    [icon] => page_white_excel
+                    [read_only] => 
+                    [modifier] => 
+                    [bytes] => 17421
+                    [modified] => Sat, 02 Jul 2011 11:05:50 +0000
+                    [size] => 17 KB
+                    [root] => dropbox
+                    [mime_type] => application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+                    [revision] => 12
+                )
+
+            [11] => Array
+                (
+                    [rev] => 9021bcfe8
+                    [thumb_exists] => 
+                    [path] => /Getting Started.pdf
+                    [is_dir] => 
+                    [client_mtime] => Wed, 02 Mar 2011 20:06:13 +0000
+                    [icon] => page_white_acrobat
+                    [read_only] => 
+                    [modifier] => 
+                    [bytes] => 268860
+                    [modified] => Wed, 02 Mar 2011 20:06:13 +0000
+                    [size] => 262.6 KB
+                    [root] => dropbox
+                    [mime_type] => application/pdf
+                    [revision] => 9
+                )
+
+            [12] => Array
+                (
+                    [rev] => 27021bcfe8
+                    [thumb_exists] => 
+                    [path] => /JamesBarnettMutualNDA.pdf
+                    [is_dir] => 
+                    [client_mtime] => Tue, 29 May 2012 14:24:45 +0000
+                    [icon] => page_white_acrobat
+                    [read_only] => 
+                    [modifier] => 
+                    [bytes] => 111513
+                    [modified] => Tue, 29 May 2012 14:24:37 +0000
+                    [size] => 108.9 KB
+                    [root] => dropbox
+                    [mime_type] => application/pdf
+                    [revision] => 39
+                )
+
+            [13] => Array
+                (
+                    [rev] => 17021bcfe8
+                    [thumb_exists] => 
+                    [path] => /PHPinAction.pdf
+                    [is_dir] => 
+                    [client_mtime] => Sat, 19 Nov 2011 03:11:44 +0000
+                    [icon] => page_white_acrobat
+                    [read_only] => 
+                    [modifier] => 
+                    [bytes] => 7979621
+                    [modified] => Sat, 19 Nov 2011 03:12:11 +0000
+                    [size] => 7.6 MB
+                    [root] => dropbox
+                    [mime_type] => application/pdf
+                    [revision] => 23
+                )
+
+            [14] => Array
+                (
+                    [rev] => e021bcfe8
+                    [thumb_exists] => 
+                    [path] => /Public
+                    [is_dir] => 1
+                    [icon] => folder_public
+                    [read_only] => 
+                    [modifier] => 
+                    [bytes] => 0
+                    [modified] => Tue, 05 Jul 2011 13:47:41 +0000
+                    [size] => 0 bytes
+                    [root] => dropbox
+                    [revision] => 14
+                )
+
+            [15] => Array
+                (
+                    [rev] => 2e021bcfe8
+                    [thumb_exists] => 
+                    [path] => /RMV Class D License Renewal - PZFW5.pdf
+                    [is_dir] => 
+                    [client_mtime] => Wed, 05 Sep 2012 22:47:05 +0000
+                    [icon] => page_white_acrobat
+                    [read_only] => 
+                    [modifier] => 
+                    [bytes] => 297727
+                    [modified] => Wed, 05 Sep 2012 22:47:05 +0000
+                    [size] => 290.7 KB
+                    [root] => dropbox
+                    [mime_type] => application/pdf
+                    [revision] => 46
+                )
+
+            [16] => Array
+                (
+                    [rev] => 32021bcfe8
+                    [thumb_exists] => 1
+                    [path] => /Untitled.png
+                    [is_dir] => 
+                    [client_mtime] => Wed, 25 Apr 2012 15:41:17 +0000
+                    [icon] => page_white_picture
+                    [read_only] => 
+                    [modifier] => 
+                    [bytes] => 20633
+                    [modified] => Fri, 19 Apr 2013 02:24:25 +0000
+                    [size] => 20.1 KB
+                    [root] => dropbox
+                    [mime_type] => image/png
+                    [revision] => 50
+                )
+
+            [17] => Array
+                (
+                    [rev] => 22021bcfe8
+                    [thumb_exists] => 
+                    [path] => /vim-book.pdf
+                    [is_dir] => 
+                    [client_mtime] => Wed, 14 Mar 2012 14:18:28 +0000
+                    [icon] => page_white_acrobat
+                    [read_only] => 
+                    [modifier] => 
+                    [bytes] => 587723
+                    [modified] => Wed, 14 Mar 2012 14:20:21 +0000
+                    [size] => 573.9 KB
+                    [root] => dropbox
+                    [mime_type] => application/pdf
+                    [revision] => 34
+                )
+
+            [18] => Array
+                (
+                    [rev] => 36021bcfe8
+                    [thumb_exists] => 
+                    [path] => /working-draft.txt
+                    [is_dir] => 
+                    [client_mtime] => Wed, 28 Sep 2016 18:40:06 +0000
+                    [icon] => page_white_text
+                    [read_only] => 
+                    [modifier] => 
+                    [bytes] => 56
+                    [modified] => Wed, 28 Sep 2016 18:40:06 +0000
+                    [size] => 56 bytes
+                    [root] => dropbox
+                    [mime_type] => text/plain
+                    [revision] => 54
+                )
+
+        )
+
+    [size] => 0 bytes
+)

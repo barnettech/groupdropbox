@@ -32,7 +32,8 @@ function groupdropbox_block_view($delta = '') {
                             'sites/all/modules/custom/groupdropbox/js/typescript.js',
                             'sites/all/modules/custom/groupdropbox/js/Rx.js',
                             'sites/all/modules/custom/groupdropbox/js/angular2.js',
-                            'sites/all/modules/custom/groupdropbox/js/router.dev.js',
+			    'sites/all/modules/custom/groupdropbox/js/router.dev.js',
+			    'sites/all/modules/custom/groupdropbox/js/http.dev.js',
                             'sites/all/modules/custom/groupdropbox/js/groupdropbox.js'
                         ),
                         'css' => array(
