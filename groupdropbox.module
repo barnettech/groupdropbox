@@ -6,6 +6,30 @@
  * Created by:  Prof. James Barnett, Babson College 2013.
  */
 
+function groupdropbox_menu() {
+  $items = array();
+  $items['groupdropbox-groupbox-json'] = array(
+    'title' => 'A basic Drupal page serving up json from a dropbox user account',
+    'page callback' => 'groupdropbox_groupbox_json',
+    'access arguments' => array('access content'),
+  );
+  return $items;
+}
+
+function groupdropbox_groupbox_json() {
+$myItems = '[
+  {"name":"Jonny","age":20},
+  {"name":"John","age":22},
+  {"name":"Jonathan Gouldesohn","age":24},
+  {"name":"Jonathan Tasty","age":28}
+]';
+$myItems = json_decode($myItems);
+watchdog('groupdropbox', '<pre>' . print_r($myItems, TRUE) . '</pre>');
+
+drupal_json_output($myItems);
+
+}
+
 function groupdropbox_block_info() {
     // This example comes from node.module.
     $blocks['groupdropbox'] = array(

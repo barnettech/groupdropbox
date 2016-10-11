@@ -36,8 +36,7 @@ import ComponentThree from './component-three.ts';
 ])
 export class SimpleRouting {
   constructor(http:Http) {
-    this.people = http.get('sites/all/modules/custom/groupdropbox/api/friends.json').subscribe(result => this.result =result.json());
-    console.log(this.people);
-    this.items = ['Spectacles', 'Giraffe', 'Turtle', 'Shark', 'Lamp', 'Chocolate', 'Beef', 'Drawer', 'Brocolli', 'Tomato', 'Plate', 'Zebra']; 
+  //this.people = http.get('sites/all/modules/custom/groupdropbox/api/friends.json').subscribe(result => this.result =result.json());
+  this.people = http.get('groupdropbox-groupbox-json').subscribe(result => this.result =result.json());
   }
 }
