@@ -38,7 +38,18 @@ $linkToShare = $dbxClient->createShareableLink("/working-draft.txt");
 watchdog('grouplinktoshare', '<pre>' . print_r($linkToShare, TRUE) . '</pre>');
 fclose($f);
 
-drupal_json_output($folderMetadata['contents']);
+$titleAndLinkArray = array();
+$i = 0;
+foreach($folderMetadata['contents'] as $anItem) {
+  $titleAndLinkArray[$i]['linkTitle'] = $anItem['path'];
+  $titleAndLinkArray[$i]['linkToShare'] = $dbxClient->createShareableLink($anItem['path']);
+  watchdog('groupdropboxLoop', '<pre>' . print_r($atItem, TRUE) . '</pre>');
+  $i++;
+
+}
+// watchdog('groupdropbox', '<pre>' . print_r($titleAndLinkArray, TRUE) . '</pre>');
+
+drupal_json_output($titleAndLinkArray);
 
 }
 
