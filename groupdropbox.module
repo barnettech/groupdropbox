@@ -4,9 +4,9 @@ use \Dropbox as dbx;
 
 /**
  * @file
- * A simple module to create a Drupal Block programmatically,
+ * A module to incorporate Angular2.0 and connect to a dropbox 
  * which then can be placed within any region using the block system.
- * Created by:  Prof. James Barnett, Babson College 2013.
+ * Created by:  Prof. Emeritus James Barnett, Harvard Medical School 2016.
  */
 
 function groupdropbox_menu() {
