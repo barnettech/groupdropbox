@@ -35,7 +35,7 @@ $folderMetadata = $dbxClient->getMetadataWithChildren("/");
 $titleAndLinkArray = array();
 $i = 0;
 foreach($folderMetadata['contents'] as $anItem) {
-  $titleAndLinkArray[$i]['linkTitle'] = $anItem['path'];
+  $titleAndLinkArray[$i]['linkTitle'] = ltrim($anItem['path'], '\/');
   $titleAndLinkArray[$i]['linkToShare'] = $dbxClient->createShareableLink($anItem['path']);
   $i++;
 }
