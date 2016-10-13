@@ -1,4 +1,7 @@
 <?php
+require_once "dropbox-sdk/Dropbox/autoload.php";
+use \Dropbox as dbx;
+
 /**
  * @file
  * A simple module to create a Drupal Block programmatically,
@@ -17,16 +20,25 @@ function groupdropbox_menu() {
 }
 
 function groupdropbox_groupbox_json() {
-$myItems = '[
+/*$myItems = '[
   {"name":"Jonny","age":20},
   {"name":"John","age":22},
   {"name":"Jonathan Gouldesohn","age":24},
   {"name":"Jonathan Tasty","age":28}
 ]';
 $myItems = json_decode($myItems);
-watchdog('groupdropbox', '<pre>' . print_r($myItems, TRUE) . '</pre>');
+watchdog('groupdropbox', '<pre>' . print_r($myItems, TRUE) . '</pre>');*/
+$accessToken = "a_2MdW8-dTYAAAAAAAAvU2gyKwjAJ_M5fxC8PHHDfrflsii6Rc77TFgFFfG2ixpG";
+$dbxClient = new dbx\Client($accessToken, "PHP-Example/1.0");
+$accountInfo = $dbxClient->getAccountInfo();
 
-drupal_json_output($myItems);
+$folderMetadata = $dbxClient->getMetadataWithChildren("/");
+watchdog('groupdropbox', '<pre>' . print_r($folderMetadata['contents'], TRUE) . '</pre>');
+$linkToShare = $dbxClient->createShareableLink("/working-draft.txt");
+watchdog('grouplinktoshare', '<pre>' . print_r($linkToShare, TRUE) . '</pre>');
+fclose($f);
+
+drupal_json_output($folderMetadata['contents']);
 
 }
 

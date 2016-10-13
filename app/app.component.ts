@@ -19,10 +19,12 @@ import ComponentThree from './component-three.ts';
 		<a class='menu-item' [routerLink]="['/ComponentTwo']">Two</a>
 		<a class='menu-item' [routerLink]="['/ComponentThree']">Three</a>
 	</h1>
-        <ul>
-          <li *ngFor="#frnd of result">
+	<ul>
+	<li *ngFor="#obj of result">{{obj | json}}</li>
+	<!--<li *ngFor="#obj of result">{{obj.path}}</li>-->
+	  <!--<li *ngFor="#frnd of result">
             {{frnd.name}} is {{frnd.age}} years old.
-          </li>
+	  </li>-->
         </ul>        <div>
 	  <router-outlet></router-outlet>
 	</div>
@@ -38,5 +40,6 @@ export class SimpleRouting {
   constructor(http:Http) {
   //this.people = http.get('sites/all/modules/custom/groupdropbox/api/friends.json').subscribe(result => this.result =result.json());
   this.people = http.get('groupdropbox-groupbox-json').subscribe(result => this.result =result.json());
+  console.log(this.people);
   }
 }

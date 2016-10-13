@@ -29,12 +29,12 @@ fclose($f);
 print_r($result);
 
 $folderMetadata = $dbxClient->getMetadataWithChildren("/");
-print_r($folderMetadata);
+print_r($folderMetadata);*/
 
 $f = fopen("working-draft.txt", "w+b");
 $fileMetadata = $dbxClient->getFile("/working-draft.txt", $f);
 fclose($f);
-print_r($fileMetadata);*/
+print_r($fileMetadata);
 
 $folderMetadata = $dbxClient->getMetadataWithChildren("/");
 print_r($folderMetadata);
