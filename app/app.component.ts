@@ -20,8 +20,8 @@ import ComponentThree from './component-three.ts';
 		<a class='menu-item' [routerLink]="['/ComponentThree']">Three</a>
 	</h1>
 	<ul>
-	<li *ngFor="#obj of result">{{obj | json}}</li>
-	<!--<li *ngFor="#obj of result">{{obj.path}}</li>-->
+	<!--<li *ngFor="#obj of result">{{obj | json}}</li>-->
+	<li *ngFor="#obj of result"><a href='{{obj.linkToShare}}'>{{obj.linkTitle}}</a></li>
 	  <!--<li *ngFor="#frnd of result">
             {{frnd.name}} is {{frnd.age}} years old.
 	  </li>-->

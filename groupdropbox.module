@@ -31,23 +31,14 @@ watchdog('groupdropbox', '<pre>' . print_r($myItems, TRUE) . '</pre>');*/
 $accessToken = "a_2MdW8-dTYAAAAAAAAvU2gyKwjAJ_M5fxC8PHHDfrflsii6Rc77TFgFFfG2ixpG";
 $dbxClient = new dbx\Client($accessToken, "PHP-Example/1.0");
 $accountInfo = $dbxClient->getAccountInfo();
-
 $folderMetadata = $dbxClient->getMetadataWithChildren("/");
-watchdog('groupdropbox', '<pre>' . print_r($folderMetadata['contents'], TRUE) . '</pre>');
-$linkToShare = $dbxClient->createShareableLink("/working-draft.txt");
-watchdog('grouplinktoshare', '<pre>' . print_r($linkToShare, TRUE) . '</pre>');
-fclose($f);
-
 $titleAndLinkArray = array();
 $i = 0;
 foreach($folderMetadata['contents'] as $anItem) {
   $titleAndLinkArray[$i]['linkTitle'] = $anItem['path'];
   $titleAndLinkArray[$i]['linkToShare'] = $dbxClient->createShareableLink($anItem['path']);
-  watchdog('groupdropboxLoop', '<pre>' . print_r($atItem, TRUE) . '</pre>');
   $i++;
-
 }
-// watchdog('groupdropbox', '<pre>' . print_r($titleAndLinkArray, TRUE) . '</pre>');
 
 drupal_json_output($titleAndLinkArray);
 
